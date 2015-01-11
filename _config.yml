@@ -3,7 +3,7 @@ title: sepulchered
 description: > # this means to ignore newlines until "baseurl:"
   Trying to get into everything I'm interested in... devops, design, linguistics, engineering, art and music.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: //andrey.dresvyannikov.ru # the base hostname & protocol for your site
+url: //sepulchered.github.io # the base hostname & protocol for your site
 
 owner:
   name: Andrey Dresvyannikov

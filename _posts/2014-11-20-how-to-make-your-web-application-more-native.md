@@ -14,6 +14,7 @@ Now web app is a buzz word that is used to denote sometimes different things. So
 > combination of JavaScript, HTML and CSS) and relies on a web browser to render the application.
 
 I think that it's great definition and I'll stick with it here.
+
 ##Is hybrid application a sort of web application
 Well it depends on what you call hybrid application. I could not find some certain definition, but everybody seem to agree that it's some intermediate
 between native application and web application. 
@@ -31,12 +32,15 @@ mostly what differentiate "hybrid" application from web application that are ser
 
 So **for me hybrid application is a sort of web application**. Even if it's cached web application that is served from local device storage - that is
 hybrid app for me.
+
 ##How to make it more native
+
 ###Manifest is all you need! Actually not :(
 First when I read about manifest file for web apps I thought that it's about cache manifest, but it's not. You can read editor's draft of specs on
 [w3c github page](https://w3c.github.io/manifest/).
 
 Manifest is simple JSON file that server provides and allows user to "install" your web application to device.
+
 ####What can you do with this manifest?
 \- Can I enslave the whole world and rule all humanity with manifest? - you ask.
 
@@ -52,6 +56,7 @@ Here is short list of what's included:
 
 Unfortunately only Firefox and Chrome will support (yep see **will**) manifest and maybe IE. That's why it's look into the future now than direct
 recipe.
+
 ####iOS has nothing to do with manifest
 If you want to rule ios world with manifest then you're defeated by default. 
 But what if I want to rule ios world? - you ask.
@@ -69,9 +74,11 @@ I'm here to help you :)
       library](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 
       Finally you can clone and use this [gist](https://gist.github.com/tfausak/2222823) by [Taylor Fausak](https://github.com/tfausak).
+
 ##What can I do for it to look more native
       I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your
       app look great and native.
+
 ###ios
       First stop for you would be [iOS Human Interface
       Guidelines](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/).
@@ -85,6 +92,7 @@ I'm here to help you :)
       - [Framework7](http://www.idangero.us/framework7/) MIT Licensed
 
       I think it's enough to get started, but there are obviously more if you want something different.
+
 ###android
       First stop, as for ios, would be [official google design docs](https://developer.android.com/design/index.html)
 
@@ -97,6 +105,7 @@ I'm here to help you :)
       - [Material UI](http://material-ui.com) MIT License
 
       That's enough for good start but there's many more that can be found.
+
 ###firefox os
       Yes you didn't mishear Firefox OS. As I don't know any framework that has ui components ready for this os you just can read it's [design
       guides](https://www.mozilla.org/en-US/styleguide/products/firefox-os/) and wish for someone to make it. But wait, why not to make it yourself?

@@ -19,7 +19,6 @@ owner:
 timezone: Europe/Moscow
 future: true
 disqus_shortname: andreydresvyannikovru
-background: optimized-i-o.jpg
 google_analytics: UA-38597125-3
 highlighter: pygments
 # Build settings

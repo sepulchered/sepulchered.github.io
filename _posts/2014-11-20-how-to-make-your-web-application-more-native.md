@@ -73,7 +73,7 @@ I'm here to help you :)
 - set the style for status bar with `<meta name="apple-mobile-web-app-status-bar-style" content="black">` read more on [safari developer
       library](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 
-      Finally you can clone and use this [gist](https://gist.github.com/tfausak/2222823) by [Taylor Fausak](https://github.com/tfausak).
+Finally you can clone and use this [gist](https://gist.github.com/tfausak/2222823) by [Taylor Fausak](https://github.com/tfausak).
 
 ##What can I do for it to look more native##
 I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your

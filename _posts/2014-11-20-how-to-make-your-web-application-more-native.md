@@ -2,7 +2,7 @@
 layout: post
 title:  "How to make your web application more native"
 date:   2014-11-20 12:14:00
-categories: hybrid_app native_app web_app
+categories: devops
 ---
 In this post I'll show how to make your existing web app look more native for mobile users.
 

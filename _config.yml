@@ -7,7 +7,6 @@ url: //sepulchered.github.io # the base hostname & protocol for your site
 
 owner:
   name: Andrey Dresvyannikov
-  avatar: avatar.jpg
   email: andrey@dresvyannikov.ru
   twitter: dresvyannikov_a
   facebook: dresvyannikov.a
@@ -20,9 +19,13 @@ owner:
 timezone: Europe/Moscow
 future: true
 disqus_shortname: andreydresvyannikovru
+background: optimized-i-o.jpg
 google_analytics: UA-38597125-3
 highlighter: pygments
 # Build settings
 markdown: kramdown
+
+karmdown:
+  input: GFM
 
 paginate: 5

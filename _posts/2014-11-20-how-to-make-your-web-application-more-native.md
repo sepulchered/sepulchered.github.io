@@ -6,7 +6,7 @@ categories: hybrid_app native_app web_app
 ---
 In this post I'll show how to make your existing web app look more native for mobile users.
 
-##What is web application, anyway?
+##What is web application, anyway?##
 Now web app is a buzz word that is used to denote sometimes different things. So obviously you want to know what I'm talking about here.
 
 [Wikipedia](http://en.wikipedia.org/wiki/Web_application) states:
@@ -33,15 +33,15 @@ mostly what differentiate "hybrid" application from web application that are ser
 So **for me hybrid application is a sort of web application**. Even if it's cached web application that is served from local device storage - that is
 hybrid app for me.
 
-##How to make it more native
+##How to make it more native##
 
-###Manifest is all you need! Actually not :(
+###Manifest is all you need! Actually not :(###
 First when I read about manifest file for web apps I thought that it's about cache manifest, but it's not. You can read editor's draft of specs on
 [w3c github page](https://w3c.github.io/manifest/).
 
 Manifest is simple JSON file that server provides and allows user to "install" your web application to device.
 
-####What can you do with this manifest?
+####What can you do with this manifest?####
 \- Can I enslave the whole world and rule all humanity with manifest? - you ask.
 
 Actually not, but you can try, who knows anyway...
@@ -57,7 +57,7 @@ Here is short list of what's included:
 Unfortunately only Firefox and Chrome will support (yep see **will**) manifest and maybe IE. That's why it's look into the future now than direct
 recipe.
 
-####iOS has nothing to do with manifest
+####iOS has nothing to do with manifest####
 If you want to rule ios world with manifest then you're defeated by default. 
 But what if I want to rule ios world? - you ask.
 I'm here to help you :)
@@ -66,20 +66,20 @@ I'm here to help you :)
 - set icons with `<link rel="apple-touch-icon" sizes="76x76" href="my-mega-cool-app-icon.png">`. You should use **png** image and don't forget that
   there are different screen resolutions and you need to provide different icons for them. Thankfully you can have several icons with different
   `sizes` values to provide this functionality.
-  - set application startup image with `<link rel="apple-touch-startup-image" href="my-mega-startup-image.png">`. Unfortunately you can't use `sizes`
+- set application startup image with `<link rel="apple-touch-startup-image" href="my-mega-startup-image.png">`. Unfortunately you can't use `sizes`
     here, but guess what? You can use media queries.
-    - hide browser controls with `<meta name="apple-mobile-web-app-capable" content="yes">`.
-    - set fullscreen mode with `<meta name="apple-mobile-web-app-capable" content="yes">`
-    - set the style for status bar with `<meta name="apple-mobile-web-app-status-bar-style" content="black">` read more on [safari developer
+- hide browser controls with `<meta name="apple-mobile-web-app-capable" content="yes">`.
+- set fullscreen mode with `<meta name="apple-mobile-web-app-capable" content="yes">`
+- set the style for status bar with `<meta name="apple-mobile-web-app-status-bar-style" content="black">` read more on [safari developer
       library](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 
       Finally you can clone and use this [gist](https://gist.github.com/tfausak/2222823) by [Taylor Fausak](https://github.com/tfausak).
 
-##What can I do for it to look more native
+##What can I do for it to look more native##
       I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your
       app look great and native.
 
-###ios
+###ios###
       First stop for you would be [iOS Human Interface
       Guidelines](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/).
 
@@ -93,7 +93,7 @@ I'm here to help you :)
 
       I think it's enough to get started, but there are obviously more if you want something different.
 
-###android
+###android###
       First stop, as for ios, would be [official google design docs](https://developer.android.com/design/index.html)
 
       Now for Android it's Material Design time (hope you've read about it in official google design docs). So there already are several frameworks
@@ -106,6 +106,6 @@ I'm here to help you :)
 
       That's enough for good start but there's many more that can be found.
 
-###firefox os
+###firefox os###
       Yes you didn't mishear Firefox OS. As I don't know any framework that has ui components ready for this os you just can read it's [design
       guides](https://www.mozilla.org/en-US/styleguide/products/firefox-os/) and wish for someone to make it. But wait, why not to make it yourself?

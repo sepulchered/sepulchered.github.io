@@ -76,36 +76,36 @@ I'm here to help you :)
       Finally you can clone and use this [gist](https://gist.github.com/tfausak/2222823) by [Taylor Fausak](https://github.com/tfausak).
 
 ##What can I do for it to look more native##
-      I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your
-      app look great and native.
+I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your
+app look great and native.
 
 ###ios###
-      First stop for you would be [iOS Human Interface
-      Guidelines](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/).
+First stop for you would be [iOS Human Interface
+Guidelines](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/).
 
-      After you get some knowledge of iOS design principles you can start with your own great mega design for app. 
+After you get some knowledge of iOS design principles you can start with your own great mega design for app. 
 
-      But wait is there anything that could help? Yes, there are several frameworks of components made for you:
+But wait is there anything that could help? Yes, there are several frameworks of components made for you:
 
-      - [ChocolateChipUI](http://chocolatechip-ui.com) (free for open source)
-      - [Onsen UI](http://onsen.io/) Apache License v2.0
-      - [Framework7](http://www.idangero.us/framework7/) MIT Licensed
+- [ChocolateChipUI](http://chocolatechip-ui.com) (free for open source)
+- [Onsen UI](http://onsen.io/) Apache License v2.0
+- [Framework7](http://www.idangero.us/framework7/) MIT Licensed
 
-      I think it's enough to get started, but there are obviously more if you want something different.
+I think it's enough to get started, but there are obviously more if you want something different.
 
 ###android###
-      First stop, as for ios, would be [official google design docs](https://developer.android.com/design/index.html)
+First stop, as for ios, would be [official google design docs](https://developer.android.com/design/index.html)
 
-      Now for Android it's Material Design time (hope you've read about it in official google design docs). So there already are several frameworks
-      that can help you create android native ui look:
+Now for Android it's Material Design time (hope you've read about it in official google design docs). So there already are several frameworks
+that can help you create android native ui look:
 
-      - [Angular Material Design](https://material.angularjs.org/) MIT License
-      - [Bootstrap Material Design](zvrasta.github.io/bootstrap-material-design/) free only for no-profit projects
-      - [Leaf Framework](http://getleaf.com/) author said that it'll be free (but it's in development and things has not settled down)
-      - [Material UI](http://material-ui.com) MIT License
+- [Angular Material Design](https://material.angularjs.org/) MIT License
+- [Bootstrap Material Design](zvrasta.github.io/bootstrap-material-design/) free only for no-profit projects
+- [Leaf Framework](http://getleaf.com/) author said that it'll be free (but it's in development and things has not settled down)
+- [Material UI](http://material-ui.com) MIT License
 
-      That's enough for good start but there's many more that can be found.
+That's enough for good start but there's many more that can be found.
 
 ###firefox os###
-      Yes you didn't mishear Firefox OS. As I don't know any framework that has ui components ready for this os you just can read it's [design
-      guides](https://www.mozilla.org/en-US/styleguide/products/firefox-os/) and wish for someone to make it. But wait, why not to make it yourself?
+Yes you didn't mishear Firefox OS. As I don't know any framework that has ui components ready for this os you just can read it's [design
+guides](https://www.mozilla.org/en-US/styleguide/products/firefox-os/) and wish for someone to make it. But wait, why not to make it yourself?

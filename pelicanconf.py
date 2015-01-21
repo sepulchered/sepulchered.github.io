@@ -9,6 +9,10 @@ SITEURL = 'http://andrey.dresvyannikov.ru'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Moscow'
+THEME = 'pelican-svbhack'
+USER_LOGO_URL = SITEURL + '/static/img/ava.jpg'
+GOOGLE_ANALYTICS = "UA-38597125-3"
+DISQUS_SITENAME = 'andreydresvyannikovru'
 
 DEFAULT_LANG = 'en'
 

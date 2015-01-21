@@ -25,7 +25,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MARKUP = ('md', 'ipynb')
-PLUGINS = ['custom_plugins.ipynb']
+PLUGINS = ['custom_plugins.ipynb', 'custom_plugins.render_math']
 
 # Blogroll
 LINKS = (('About', '/about.html'),

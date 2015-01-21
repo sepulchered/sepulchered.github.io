@@ -24,6 +24,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MARKUP = ('md', 'ipynb')
+PLUGINS = ['custom_plugins.ipynb']
+
 # Blogroll
 LINKS = (('About', '/about.html'),
          ('CV', '/cv.html'),)

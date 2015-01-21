@@ -1,155 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>sepulchered</title>
-        <link rel="stylesheet" href="http://andrey.dresvyannikov.ru/theme/css/main.css" />
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="http://andrey.dresvyannikov.ru/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="http://andrey.dresvyannikov.ru/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://andrey.dresvyannikov.ru/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="sepulchered">
+  <meta name="description" content="Posts and writings by sepulchered">
+
+
+
+  <title>
+    sepulchered
+  </title>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38597125-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://andrey.dresvyannikov.ru/">sepulchered </a></h1>
-                <nav><ul>
-                    <li><a href="http://andrey.dresvyannikov.ru/category/devops.html">devops</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="http://andrey.dresvyannikov.ru">
+        <img src="http://andrey.dresvyannikov.ru/static/img/ava.jpg" alt="logo">
+      </a>
+      <h2><a href="http://andrey.dresvyannikov.ru">sepulchered</a></h2>
+      <p></p>
+      <ul>
+        <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+        <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+        <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+        <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        <li><a href="#" target="_blank">You can add links in your config file</a></li>
+        <li><a href="#" target="_blank">Another social link</a></li>
+      </ul>
+    </div>
+  </aside>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://andrey.dresvyannikov.ru/how-to-make-your-web-application-more-native.html">"How to make your web application more native"</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2014-11-20T12:14:00+03:00">
-                Published: Чт. 20 Ноябрь 2014
-        </abbr>
+  <main>
+    <header>
+      <p>
+      <a href="http://andrey.dresvyannikov.ru">Index</a> &brvbar; <a href="http://andrey.dresvyannikov.ru/archives.html">Archives</a>
+      </p>
+    </header>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://andrey.dresvyannikov.ru/author/sepulchered.html">sepulchered</a>
-        </address>
-<p>In <a href="http://andrey.dresvyannikov.ru/category/devops.html">devops</a>. </p>
-
-</footer><!-- /.post-info --><p>In this post I'll show how to make your existing web app look more native for mobile users.</p>
+<article>
+  <div class="article_title">
+    <h3><a href="http://andrey.dresvyannikov.ru/how-to-make-your-web-application-more-native.html">"How to make your web application more native"</a></h3>
+  </div>
+  <div class="article_text">
+    <p>In this post I'll show how to make your existing web app look more native for mobile users.</p>
 <h2>What is web application, anyway?</h2>
-<p>Now web app is a buzz word that is used to denote sometimes different things. So obviously you want to know what I'm talking about here.</p>
-<p><a href="http://en.wikipedia.org/wiki/Web_application">Wikipedia</a> states:</p>
-<blockquote>
-<p>A web application or web app is any software that runs in a web browser. It is created in a browser-supported programming language (such as the
-combination of JavaScript, HTML and CSS) and relies on a web browser to render the application.</p>
-</blockquote>
-<p>I think that it's great definition and I'll stick with it here.</p>
-<h2>Is hybrid application a sort of web application</h2>
-<p>Well it depends on what you call hybrid application. I could not find some certain definition, but everybody seem to agree that it's some intermediate
-between native application and web application. </p>
-<p>But it's still question for me to what extent? Is application written in C# and built with <a href="http://xamarin.com/">Xamarin</a> to run on ios or android a
-hybrid app, or is application written in JavaScript and built with <a href="http://www.appcelerator.com/titanium/">Titanium</a> a hybrid app.</p>
-<p>For me it seems that apps built with these platforms are native applications (as you can create applications for desktop using different programming
-languages and different frameworks).
-So I propose here definition of hybrid app as:</p>
-<blockquote>
-<p>Web application that use local resources of device it's running on and can work offline</p>
-</blockquote>
-<p>Now, with rapid development of WebApi's for even <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/Vibration">vibration</a> working offline is
-mostly what differentiate "hybrid" application from web application that are served from remote server. </p>
-<p>So <strong>for me hybrid application is a sort of web application</strong>. Even if it's cached web application that is served from local device storage - that is
-hybrid app for me.</p>
-<h2>How to make it more native</h2>
-<h3>Manifest is all you need! Actually not :(</h3>
-<p>First when I read about manifest file for web apps I thought that it's about cache manifest, but it's not. You can read editor's draft of specs on
-<a href="https://w3c.github.io/manifest/">w3c github page</a>.</p>
-<p>Manifest is simple JSON file that server provides and allows user to "install" your web application to device.</p>
-<h4>What can you do with this manifest?</h4>
-<p>- Can I enslave the whole world and rule all humanity with manifest? - you ask.</p>
-<p>Actually not, but you can try, who knows anyway...
-Here is short list of what's included:</p>
-<ul>
-<li>set application name</li>
-<li>set application icons</li>
-<li>set orientation</li>
-<li>set display mode (e.g. fullscreen)</li>
-<li>set application start url</li>
-<li>set application boundaries (application domain or directory of domain) so user won't go outside your application</li>
-</ul>
-<p>Unfortunately only Firefox and Chrome will support (yep see <strong>will</strong>) manifest and maybe IE. That's why it's look into the future now than direct
-recipe.</p>
-<h4>iOS has nothing to do with manifest</h4>
-<p>If you want to rule ios world with manifest then you're defeated by default. 
-But what if I want to rule ios world? - you ask.
-I'm here to help you :)</p>
-<ul>
-<li>you can set application title with <code>&lt;meta name="apple-mobile-web-app-title" content="My Mega App"&gt;</code></li>
-<li>set icons with <code>&lt;link rel="apple-touch-icon" sizes="76x76" href="my-mega-cool-app-icon.png"&gt;</code>. You should use <strong>png</strong> image and don't forget that
-  there are different screen resolutions and you need to provide different icons for them. Thankfully you can have several icons with different
-  <code>sizes</code> values to provide this functionality.</li>
-<li>set application startup image with <code>&lt;link rel="apple-touch-startup-image" href="my-mega-startup-image.png"&gt;</code>. Unfortunately you can't use <code>sizes</code>
-    here, but guess what? You can use media queries.</li>
-<li>hide browser controls with <code>&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;</code>.</li>
-<li>set fullscreen mode with <code>&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;</code></li>
-<li>set the style for status bar with <code>&lt;meta name="apple-mobile-web-app-status-bar-style" content="black"&gt;</code> read more on <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html">safari developer
-      library</a></li>
-</ul>
-<p>Finally you can clone and use this <a href="https://gist.github.com/tfausak/2222823">gist</a> by <a href="https://github.com/tfausak">Taylor Fausak</a>.</p>
-<h2>What can I do for it to look more native</h2>
-<p>I hope that you really want to make great mega application and provide user with good user interface. So here are some hints on how to make your
-app look great and native.</p>
-<h3>ios</h3>
-<p>First stop for you would be <a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/">iOS Human Interface
-Guidelines</a>.</p>
-<p>After you get some knowledge of iOS design principles you can start with your own great mega design for app. </p>
-<p>But wait is there anything that could help? Yes, there are several frameworks of components made for you:</p>
-<ul>
-<li><a href="http://chocolatechip-ui.com">ChocolateChipUI</a> (free for open source)</li>
-<li><a href="http://onsen.io/">Onsen UI</a> Apache License v2.0</li>
-<li><a href="http://www.idangero.us/framework7/">Framework7</a> MIT Licensed</li>
-</ul>
-<p>I think it's enough to get started, but there are obviously more if you want something different.</p>
-<h3>android</h3>
-<p>First stop, as for ios, would be <a href="https://developer.android.com/design/index.html">official google design docs</a></p>
-<p>Now for Android it's Material Design time (hope you've read about it in official google design docs). So there already are several frameworks
-that can help you create android native ui look:</p>
-<ul>
-<li><a href="https://material.angularjs.org/">Angular Material Design</a> MIT License</li>
-<li><a href="zvrasta.github.io/bootstrap-material-design/">Bootstrap Material Design</a> free only for no-profit projects</li>
-<li><a href="http://getleaf.com/">Leaf Framework</a> author said that it'll be free (but it's in development and things has not settled down)</li>
-<li><a href="http://material-ui.com">Material UI</a> MIT License</li>
-</ul>
-<p>That's enough for good start but there's many more that can be found.</p>
-<h3>firefox os</h3>
-<p>Yes you didn't mishear Firefox OS. As I don't know any framework that has ui components ready for this os you just can read it's <a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/">design
-guides</a> and wish for someone to make it. But wait, why not to make it yourself?</p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+<p>Now web app is a buzz word that is used to denote sometimes different things. So obviously you want to know what I'm talking about ...</p>
+  </div>
+</article>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+<footer>
+<div id="paginator">
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+</div>
+</footer>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+    <div id="ending_message">
+      <p>&copy; sepulchered. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. .</p>
+    </div>
+  </main>
 </body>
 </html>

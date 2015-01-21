@@ -10,6 +10,8 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/Moscow'
 THEME = 'pelican-svbhack'
+THEME_STATIC_PATHS = ['static']
+
 USER_LOGO_URL = SITEURL + '/static/img/ava.jpg'
 GOOGLE_ANALYTICS = "UA-38597125-3"
 DISQUS_SITENAME = 'andreydresvyannikovru'

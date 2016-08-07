@@ -14,4 +14,4 @@ Python, JavaScript, CoffeeScript, ES2015/ES6, PostgreSQL, MongoDB, Nginx, jQuery
 
 ### Contact me
 
-[email](mailto:andrey@dresvyannikov.ru)
+Links are in the footer of this site.

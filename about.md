@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi! My name is Andrey Dresvyannikov (aka sepulchered).
+I'm keen on web dev, linguistics, music, design and illustration.
+Just want to make world a better place to live and help people who want to do the same.
 
-### More Information
+### Some techs that I use
 
 A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email](mailto:andrey@dresvyannikov.ru)

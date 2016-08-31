@@ -4,22 +4,33 @@ title: We are developers! We can fix code, but cannot fix people. (part 1)
 ---
 
 Here is why I stand for automatic deployment to production, and stay strong.
+
 
 I have worked in several companies with different deployment process but one thing was common — manual deployment. If you work like that, I think that you believe that it’s much more safe than automatic deployment but it ain’t (even if you don’t have integration tests, which you should). What is automatic deployment though. Automatic here means that it does for you copying everything that is required to you production, managing assets, schema/data migrations, restarting/reloading app servers etc.
 
+
+
 ## Why do I think that it’s better and safer?
+
 
 * If you work in sprints and deploy after sprint — you end up with several new features that should be deployed to production. The person responsible for deployment should then know what commands are required to publish it properly. You can even have some docs on the deployment process but you are not safe from mistakes, spelling errors and stuff like that with strong belief that everything in the process was done right (yeah, you can tell me that you don’t make mistakes, you cheating robots!). With automatic deployment it’s done by code that you as a good and proficient developer can easily fix/debug. If you have a mistake in that deployment process— you can fix it once and it won’t appear again.
 * If you deploy each feature to production then count of mistakes (from 1.) multiplies by the number of features.
 * If you have automatic deployment — then you can easily have automatic roll-back process done by one button (just get previous git tag or release commit and deploy it — done, clean and cool)
 * If you have automatic deployment — you can run integration tests after deployment and be notified by you tests and not your users that there are problems.
 
+
+
 ## Some notes on the process.
+
 
 If you would like to deploy automatically but still fear of mistakes that can be in the process of merging feature branch (hope you use some good vcs, if not — you should, stop reading this and go learn yourself some vcs) into master branch. You can call production release branch differently like production or even production_release_branch. You can add some pre-commit hooks (git supports it, not sure for others), like type some random long word (like Rumpelstilzchen) so each time you commit to production branch you do it consciously, with knowledge and pain. Or even do some other stuff for developers to feel misery and pain for deploying to production.
 
+
+
 ## Final notes
 
+
 Just remember that automatic deployment is one time activity and it’s cool to do it, because you do it with code, not with people. When you try to impose some manual process — you write docs or consult each new person. You copy/paste some commands in the end in order not to make mistakes while you can do it with just one command to deploy it automatically for you. You won’t have to find mistakes and typos you just work with code (as developer expected to). Just remember, you are proficient and good developer (I hope you are) so you are great at fixing code (DO IT!), if you want to be good at fixing people — do something else.
+
 
 PS: didn’t want to offend people (title in some way means that they should be fixed), I love people as they are. If you still think that my standpoint is wrong — I don’t mean you do it wrong, I just mean I think that automatic deployment is right for much more reasons.

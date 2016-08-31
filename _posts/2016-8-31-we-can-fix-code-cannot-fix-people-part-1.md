@@ -1,4 +1,8 @@
-# We are developers! We can fix code, but cannot fix people. (part 1)
+---
+layout: post
+title: We are developers! We can fix code, but cannot fix people. (part 1)
+---
+
 ## Here is why I stand for automatic deployment to production, and stay strong.
 
 I have worked in several companies with different deployment process but one thing was common — manual deployment.

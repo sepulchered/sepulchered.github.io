@@ -14,4 +14,5 @@ Python, JavaScript, CoffeeScript, ES2015/ES6, PostgreSQL, MongoDB, Nginx, jQuery
 
 ### Contact me
 
-Links are in the footer of this site.
+You can contact me either by [email](mailto:andrey@dresvyannikov.ru) or [telegram im](https://t.me/sepulchered). 
+You also can always find links in the footer of the site.

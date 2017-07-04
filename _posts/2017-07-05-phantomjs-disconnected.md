@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhantomJS ERROR: Disconnected, because no message in 10000 ms.
+title: PhantomJS ERROR\: Disconnected, because no message in 10000 ms.
 ---
 
 Today I was trying to run test for the project on ci and encountered an error `PhantomJS ERROR: Disconnected, because no message in 10000 ms.`. After googling for a while i found that it's widespread issue with a lot of disscussions around [[1][1st-discussion]], [[2][2nd-discussion]], etc. but i couldn't find stable solution. So here is the stuff that helped me: I increased karma configs for timeout and number of retries:

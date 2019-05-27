@@ -14,4 +14,4 @@ Here is the things I'm currently doing:
 5. Learn stuff on linguistics.
 
 I don't provide professional services on any of the above (except for 1. where I have format contract), 
-but if you want to chat about anything related to the abovementioned topic - feel free to contact me (really).
+but if you want to chat about anything related to the abovementioned topics - feel free to contact me (really).

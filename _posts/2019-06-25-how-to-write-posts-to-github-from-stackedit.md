@@ -18,8 +18,8 @@ In order to do so you should:
 
 That's it - have a happy blogging time.
 
-PS: I'm not sure that extra features of StackEdit will work with .md files, so 
+PS: I'm not sure that extra features of StackEdit will work with .md files - haven't tried it yet. Anyway StackEdit have an option to process markdown itself and upload .html files (so if I'll need it - I'll try exporting to html and uploading already processed post).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTM0MzU0OSwxMDI2NjM5ODI4LC0xMz
-U1MjkzMjldfQ==
+eyJoaXN0b3J5IjpbNzM3NTE0MjE2LDEwMjY2Mzk4MjgsLTEzNT
+UyOTMyOV19
 -->

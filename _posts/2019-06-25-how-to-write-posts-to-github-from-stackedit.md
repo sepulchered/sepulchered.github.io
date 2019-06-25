@@ -7,7 +7,7 @@ Do you know that you can write stuff to [GitHub](https://github.com) from [Stack
 
 Once you do all required steps you'll have interface like this:
 
-![StackEdit interface with github access](images/blogging-from-stackedit-to-github.png)
+![StackEdit interface with github access](/images/blogging-from-stackedit-to-github.png)
 
 In order to do so you should:
 1. grant access to your GitHub repo from StackEdit (after that you'll be able to load .md files from GitHub and upload them there
@@ -20,6 +20,6 @@ That's it - have a happy blogging time.
 
 PS: I'm not sure that extra features of StackEdit will work with .md files - haven't tried it yet. Anyway StackEdit have an option to process markdown itself and upload .html files (so if I'll need it - I'll try exporting to html and uploading already processed post).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NTE0MjE2LDEwMjY2Mzk4MjgsLTEzNT
-UyOTMyOV19
+eyJoaXN0b3J5IjpbMTM3MTE5NTc0OSwxMDI2NjM5ODI4LC0xMz
+U1MjkzMjldfQ==
 -->
